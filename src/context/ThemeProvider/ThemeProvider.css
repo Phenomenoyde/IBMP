@@ -1,0 +1,50 @@
+* {
+  --color-alert-success: #34f047;
+  --color-alert-error: #d30808d3;
+  --color-primary: #495e57;
+  --color-primary-2: #f4ce14;
+  --color-secondary: #fd8852e7;
+  --color-secondary-2: #ffca98de;
+  --color-off-white: #fffeee;
+  --color-black-full: #000000;
+  --color-white: #ffffe0;
+  --color-black: #444444;
+  --min-height-header: 60px;
+  --min-height-footer: 50px;
+  --header-switch: 768px;
+  --box-shadow-1: 0 8px 16px -5px rgb(0 0 0 / 0.2),
+    0 3px 10px -2px rgb(0 0 0 / 0.1);
+  --box-shadow-2: -15px 18px 20px -3px rgb(0 0 0 / 0.2),
+    5px 5px 15px -6px rgb(0 0 0 / 0.1);
+  --box-shadow-3: 0px -15px 10px -3px rgb(50 50 50 / 0.2);
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  justify-items: stretch;
+  background-color: var(--color-white)
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-40%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

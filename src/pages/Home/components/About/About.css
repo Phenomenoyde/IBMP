@@ -1,0 +1,48 @@
+#about {
+  background-color: white;
+  padding: 12% 12% 205px;
+  width: 100%;
+}
+
+#about-image {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+#about-image img {
+  max-width: 272px;
+  width: 272px;
+  height: auto;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1068px) {
+  .about-columns {
+    gap: 10px;
+  }
+
+  #about-chef-image {
+    transform: scale(0.8);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #about {
+    padding: 12%;
+  }
+
+  .about-columns {
+    gap: 0px;
+  }
+
+  #about-image img {
+    width: auto;
+    height: auto;
+  }
+
+  #about-chef-image {
+    transform: scale(0.5);
+  }
+
+}

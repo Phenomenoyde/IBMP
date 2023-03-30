@@ -1,0 +1,76 @@
+.LL-BookingPageNavigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+
+.LL-BookingPageNavigation h1 {
+  width: 100%;
+}
+
+.LL-BookingPageNavigation button.btn-unstyled {
+  color: var(--color-white);
+}
+
+.LL-BookingPageContainer {
+  width: 100%;
+  padding: 2.25rem;
+}
+.fadeInLeft {
+        -webkit-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes fadeInLeft {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        }
+        @keyframes fadeInLeft {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        } 
+
+#LL-BookingPageHero {
+  display: none;
+  flex-basis: 50%;
+  box-shadow: var(--box-shadow-2);
+  height: 50%;
+}
+
+#LL-BookingPageHero img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+/** For larger screens */
+@media only screen and (min-width: 960px) {
+  .LL-BookingPageContainer {
+    display: flex;
+    gap: 2.25rem;
+  }
+  #LL-BookingPageHero {
+    display: block;
+  }
+}

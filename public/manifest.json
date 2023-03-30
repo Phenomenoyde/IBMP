@@ -1,0 +1,29 @@
+{
+  "short_name": "Tijuana's Food",
+  "name": "Tijuana's Food Restaurant",
+  "icons": [
+    {
+      "src": "tijuanas-logo.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "tijuanas-logo.png",
+      "type": "image/png",
+      "sizes": "1080x1080"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "shortcuts": [
+    {
+      "name": "Book a Table",
+      "short_name": "Book Table",
+      "description": "Book a Table at Tijuana's",
+      "url": "/bookings",
+      "icons": [{ "src": "tijuanas-logo.png", "sizes": "1080x1080" }]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Full Name",
+    "review": "Can't wait to return.",
+    "image": "https://guardian.ng/wp-content/uploads/2019/06/Willow-Smith-Photo-Conversations-About-Her-1536x1152.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Full Name",
+    "review": "Just yummy",
+    "image": "https://guardian.ng/wp-content/uploads/2019/06/Solange-Knowles-for-Surface-Magazine-Photo-Andrew-Zuckerman-1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Full Name",
+    "review": "Great food",
+    "image": "https://guardian.ng/wp-content/uploads/2019/06/Adekunle-Gold-in-a-striking-pink-outfit-by-Orange-Culture-Photo-Instagram.png"
+  }
+]
