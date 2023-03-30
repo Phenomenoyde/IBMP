@@ -1,14 +1,14 @@
 * {
   --color-alert-success: #34f047;
   --color-alert-error: #d30808d3;
-  --color-primary: #495e57;
-  --color-primary-2: #f4ce14;
-  --color-secondary: #fd8852e7;
-  --color-secondary-2: #ffca98de;
+  --color-primary: #e1c778;
+  --color-primary-2: #53981a;
+  --color-secondary: #e9ba23;
+  --color-secondary-2: #9c692a;
   --color-off-white: #fffeee;
   --color-black-full: #000000;
   --color-white: #ffffe0;
-  --color-black: #444444;
+  --color-black: #17140b;
   --min-height-header: 60px;
   --min-height-footer: 50px;
   --header-switch: 768px;

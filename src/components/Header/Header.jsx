@@ -5,7 +5,7 @@ import { Logo } from '../../components';
 import { BurgerMenu } from './components';
 import { useWindowResize } from '../../hooks';
 import { useScrollDirection } from '../../hooks/useScrollDirection';
-
+import ticon from '../../assets/tijuanas-logo.ico'
 import navigation from '../../settings/cms/navigation.json';
 
 export const Header = () => {
@@ -79,7 +79,7 @@ export const Header = () => {
       <Logo
         className="LL-HeaderLogo"
         src={
-          'http://jordanbr.pythonanywhere.com/static/restaurant/img/logo.png'
+          ticon
         }
         height={windowWidth > 768 && windowWidth < 840 ? '50px' : '60px'}
       />
