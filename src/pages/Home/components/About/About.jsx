@@ -12,15 +12,18 @@ export const About = () => {
           basis="40%"
         >
           <Stack.Item vertical>
-            <Heading>LITTLE LEMON</Heading>
-            <p>Chicago</p>
+            <Heading>Sobre Nosotros</Heading>
           </Stack.Item>
 
-          <p>
-            About us
+          <p style={{  "text-align": "justify",  "text-justify": "inter-word"}}>
+            Somos un emprendimiento iniciado en el año 2020 como alternativa culinaria
+            en Turmero, Edo. Aragua que nació de la profunda necesidad de generar opciones
+            y productividad en medio de la pandemia mundial. Con esfuerzo y un increible
+            equipo y liderazgo nos convertimos en la principal fuente de ventas de comida
+            Tex-Mex en Turmero con miras a expandir el corazón Tex-Mex incluso a más lugares.
           </p>
         </Stack.Item>
-
+        
         <section className="about-right-column">
           <section id="about-image">
             <div id="about-chef-image">
@@ -31,6 +34,7 @@ export const About = () => {
             </div>
           </section>
         </section>
+        
       </Stack>
     </section>
   );

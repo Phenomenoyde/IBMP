@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Home",
-    "title": "Home",
+    "name": "inicio",
+    "title": "Inicio",
     "link": "internal",
     "url": "/"
   },
@@ -15,8 +15,8 @@
   },
   {
     "id": 3,
-    "name": "bookings",
-    "title": "Bookings",
+    "name": "reservaciones",
+    "title": "Reservaciones",
     "link": "internal",
     "url": "/bookings",
     "state": {
@@ -25,23 +25,9 @@
   },
   {
     "id": 4,
-    "name": "order",
-    "title": "Order",
-    "link": "hash",
-    "url": "/#specials"
-  },
-  {
-    "id": 5,
-    "name": "about",
-    "title": "About",
+    "name": "sobre nosotros",
+    "title": "Sobre nosotros",
     "link": "hash",
     "url": "/#about"
-  },
-  {
-    "id": 6,
-    "name": "login",
-    "title": "Login",
-    "link": "hash",
-    "url": "/#home"
   }
 ]

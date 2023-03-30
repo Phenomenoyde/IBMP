@@ -12,5 +12,19 @@
     "image": "mulitas.jpg",
     "price": 4,
     "description": "Estas tortillas---"
+  },
+  {
+    "id": 3,
+    "title": "Nachos",
+    "image": "nachos.jpg",
+    "price": 3,
+    "description": "Nachos de maiz acompañados---"
+  },
+  {
+    "id": 4,
+    "title": "Enchiladas",
+    "image": "enchiladas.jpg",
+    "price": 2,
+    "description": "Selección mas picante---"
   }
 ]

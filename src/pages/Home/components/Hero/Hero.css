@@ -12,11 +12,12 @@
 
 .Hero-left h1 {
   color: var(--color-primary-2);
+  font-size: 2.5rem;
 }
 
 .Hero-left .subtitle {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .Hero-left {
@@ -36,7 +37,8 @@
 }
 
 #Hero-description {
-  padding: .5rem 0;
+  padding: .2rem 0;
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 768px) {

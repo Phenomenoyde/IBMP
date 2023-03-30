@@ -1,11 +1,11 @@
 import { Card, Heading } from '../../../../components';
-import './Specials.css';
+import './Menu.css';
 
 export const Specials = ({ data, itemWidth }) => {
   return (
     <section id="specials" className="RestSpecials">
       <section className="specials-title">
-        <Heading size="lg">Specials</Heading>
+        <Heading size="lg">Menú</Heading>
       </section>
 
       <section  id="SpecialItems">

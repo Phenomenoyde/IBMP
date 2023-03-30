@@ -2,6 +2,7 @@ import { createElement } from 'react';
 import { Logo, Heading, SocialMediaWidget } from '../../components';
 import { Link } from 'react-router-dom';
 import navigation from '../../settings/cms/navigation.json';
+import ticon from '../../assets/tijuanas-logo.ico';
 import './Footer.css';
 
 export const Footer = () => {
@@ -9,13 +10,13 @@ export const Footer = () => {
     <footer role="region" aria-label="Footer Section">
       <Logo
         className="FooterLogo"
-        src="http://jordanbr.pythonanywhere.com/static/restaurant/img/logo.png"
+        src= {ticon}
         height="100px"
       />
 
       <section className="LL-FooterMenu">
         <Heading className="fuuuu" tag="h5" size="base">
-          Navigation
+          Navegación
         </Heading>
         <nav className="LL-Navigation FooterNavigation">
           <ul>
@@ -37,18 +38,18 @@ export const Footer = () => {
 
       <section className="LL-FooterContact">
         <Heading tag="h5" size="base">
-          Contact
+          Contactos
         </Heading>
         <article>
-          <p>Address</p>
-          <p>Phone Number</p>
-          <p>email</p>
+          <p>Turmero, Edo Aragua, Venezuela</p>
+          <p>numero</p>
+          <p>TijuanasFood@gmail.com</p>
         </article>
       </section>
 
       <section className="LL-FooterSocial">
         <Heading tag="h5" size="base">
-          Social Media Links
+          Sociales
         </Heading>
         <nav className="LL-Navigation LL-FooterNavigation">
           <SocialMediaWidget />

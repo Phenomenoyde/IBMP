@@ -8,14 +8,12 @@ export const Hero = () => {
   return (
     <section className="RestHero">
       <div className="Hero-left">
-        <Heading tag="h1" size="1xl">
+        <Heading tag="h1" size="2xl">
           Tijuana's Food
         </Heading>
-        <p className="subtitle">Venezuela</p>
+        <p className="subtitle">Aragua, Venezuela</p>
         <p id="Hero-description">
-          Tijuana's Food is a Tex-Mex fusion restaurant in Aragua, Venezuela</p>
-          <p id="Hero-description">
-        If you love spicy and delicious food, you have arrived to the right place
+          Tijuana's Food es un restaurante de comida fusión Tex-Mex. Si amas la comida picante, amarás Tijuana's Food
         </p>
         <Button
           ariaLabel="Reserve a Table"
@@ -23,7 +21,7 @@ export const Hero = () => {
           primary
           onClick={() => navi('/bookings')}
         >
-          Reserve a Table
+          Reserva una mesa
         </Button>
       </div>
       <div className="Hero-right">

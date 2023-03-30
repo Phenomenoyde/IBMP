@@ -4,8 +4,8 @@ import './Team.css';
 export const Team = ({ data }) => {
   return (
     <section id="team" className="RestTeam">
-      <Heading size="xl" align="center">
-        Team
+      <Heading size="xl" align="left">
+        Equipo
       </Heading>
       <section className="TeamCarousel">
         {data.map(({ id, name, review, image }) => (

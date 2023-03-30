@@ -1,9 +1,11 @@
 #SocialMediaWidget ul {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 0.625rem;
 }
 
 .SocialIcon {
-  height: 25px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: var(--color-secondary);
 }

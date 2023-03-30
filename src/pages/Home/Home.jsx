@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <Main>
       <Hero />
-      <Specials data={specials} itemWidth="400px" />
+      <Specials data={specials} itemWidth="300px" />
       <Team data={team} />
       <About />
     </Main>
