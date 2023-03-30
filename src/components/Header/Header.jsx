@@ -5,7 +5,7 @@ import { Logo } from '../../components';
 import { BurgerMenu } from './components';
 import { useWindowResize } from '../../hooks';
 import { useScrollDirection } from '../../hooks/useScrollDirection';
-import ticon from '../../assets/tijuanas-logo.ico'
+import ticon from '../../assets/tijuanas-logo.ico';
 import navigation from '../../settings/cms/navigation.json';
 
 export const Header = () => {

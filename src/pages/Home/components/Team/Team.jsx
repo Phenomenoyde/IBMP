@@ -1,24 +1,24 @@
 import { Card, Heading } from '../../../../components';
-import './Testimonials.css';
+import './Team.css';
 
-export const Testimonials = ({ data }) => {
+export const Team = ({ data }) => {
   return (
-    <section id="testimonials" className="RestTestimonials">
+    <section id="team" className="RestTeam">
       <Heading size="xl" align="center">
-        Testimonials
+        Team
       </Heading>
-      <section className="Testimonials-Carousel">
+      <section className="TeamCarousel">
         {data.map(({ id, name, review, image }) => (
           <Card
-            key={`testimonial-card-${name.trim()}-${id}`}
-            title={`Testimonial by ${name}`}
+            key={`team-card-${name.trim()}-${id}`}
+            title={`Team by ${name}`}
             imagePosition="left"
             image={image}
           >
             <Heading tag="h3" size="base" className="LL-Testimonial-Name">
               {name}
             </Heading>
-            <p className="Testimonial-Rev">{review}</p>
+            <p className="Team-Rev">{review}</p>
           </Card>
         ))}
       </section>

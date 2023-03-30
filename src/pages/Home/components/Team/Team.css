@@ -1,4 +1,4 @@
-.RestTestimonials {
+.RestTeam {
   display: flex;
   flex-direction: column;
   gap: 2.25rem;
@@ -6,7 +6,7 @@
   padding: 4.5rem 2.25rem;
 }
 
-.Testimonials-Carousel {
+.TeamCarousel {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -14,19 +14,19 @@
   gap: 20px;
 }
 
-.Testimonials-Carousel .LL-Card {
+.TeamCarousel .LL-Card {
   flex-basis: 25%;
 }
 
-.Testimonial-Rev {
+.Team-Rev {
   color: var(--color-primary);
 }
 
 @media only screen and (max-width: 768px) {
-  .Testimonials-Carousel {
+  .TeamCarousel {
     flex-wrap: wrap;
   }
-  .Testimonials-Carousel .LL-Card {
+  .TeamCarousel .LL-Card {
     flex-basis: 40%;
   }
 }

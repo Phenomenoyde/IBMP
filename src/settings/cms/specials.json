@@ -1,30 +1,16 @@
 [
   {
     "id": 1,
-    "title": "Moussaka",
-    "image": "https://nomadparadise.com/wp-content/uploads/2020/05/mediterranean-food-002-768x480.jpg.webp",
-    "price": 16.99,
-    "description": "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons."
+    "title": "Quesadillas",
+    "image": "quesadillas.jpg",
+    "price": 3,
+    "description": "Deliciosas tortillas rellenas---"
   },
   {
     "id": 2,
-    "title": "Greek Gods Salad",
-    "image": "https://nomadparadise.com/wp-content/uploads/2020/05/mediterranean-food-003-768x480.jpg.webp",
-    "price": 5.99,
-    "description": "The Greek salad traditionally combines chopped tomato, cucumber, bell pepper, and olives, fresh from the ground or markets."
-  },
-  {
-    "id": 3,
-    "title": "Baklava",
-    "image": "https://nomadparadise.com/wp-content/uploads/2020/05/mediterranean-food-004-768x480.jpg.webp",
-    "price": 9.99,
-    "description": "Baklava is an utterly divine and multi-textured pastry dessert, originating from Turkey during the Ottoman Empire’s rule."
-  },
-  {
-    "id": 4,
-    "title": "Borek",
-    "image": "https://nomadparadise.com/wp-content/uploads/2020/05/mediterranean-food-006-768x480.jpg.webp",
-    "price": 11.99,
-    "description": "Borek is traditionally made with filo or yufka pastry. It’s baked in a large pan and then cut into slices once ready. Its name is believed to be derived from the Turkish word bur, ‘to twist’."
+    "title": "Mulitas",
+    "image": "mulitas.jpg",
+    "price": 4,
+    "description": "Estas tortillas---"
   }
 ]

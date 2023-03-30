@@ -1,15 +1,15 @@
-import { About, Hero, Specials, Testimonials } from './components';
+import { About, Hero, Specials, Team } from './components';
 import { Main } from '../../components';
 
 import specials from '../../settings/cms/specials.json';
-import testimonials from '../../settings/cms/testimonials.json';
+import team from '../../settings/cms/team.json';
 
 export const Home = () => {
   return (
     <Main>
       <Hero />
       <Specials data={specials} itemWidth="400px" />
-      <Testimonials data={testimonials} />
+      <Team data={team} />
       <About />
     </Main>
   );
