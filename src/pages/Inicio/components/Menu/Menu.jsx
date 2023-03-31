@@ -1,14 +1,14 @@
 import { Card, Heading } from '../../../../components';
 import './Menu.css';
 
-export const Specials = ({ data, itemWidth }) => {
+export const Menu = ({ data, itemWidth }) => {
   return (
-    <section id="specials" className="RestSpecials">
-      <section className="specials-title">
+    <section id="menu" className="RestMenu">
+      <section className="menu-title">
         <Heading size="lg">Menú</Heading>
       </section>
 
-      <section  id="SpecialItems">
+      <section  id="MenuItems">
         {data.map(({ id, title, price, description, image }) => (
           <Card key={id} title={title} width={itemWidth} image={require(`../../../../assets/${image}`)}>
             <div className="CardHeader card-variant-food">

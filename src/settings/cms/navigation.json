@@ -3,15 +3,15 @@
     "id": 1,
     "name": "inicio",
     "title": "Inicio",
-    "link": "internal",
-    "url": "/"
+    "link": "hash",
+    "url": "/#inicio"
   },
   {
     "id": 2,
     "name": "menu",
     "title": "Menu",
     "link": "hash",
-    "url": "/#specials"
+    "url": "/#menu"
   },
   {
     "id": 3,

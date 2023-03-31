@@ -1,4 +1,4 @@
-.RestSpecials {
+.RestMenu {
   padding: 100px 12%;
   display: flex;
   flex-direction: column;
@@ -6,12 +6,12 @@
   flex-wrap: wrap;
 }
 
-.specials-title {
+.menu-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#SpecialItems {
+#MenuItems {
   display: flex;
   justify-content: space-between;
   align-items: stretch;

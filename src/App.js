@@ -9,7 +9,7 @@ import {
 import { AppProvider, ThemeProvider } from './context';
 import { Header, Footer } from './components';
 import './App.css';
-import { Home, BookingPage, ConfirmedBooking } from './pages';
+import { Inicio, BookingPage, ConfirmedBooking } from './pages';
 
 const Root = () => {
   return (
@@ -25,7 +25,7 @@ const Root = () => {
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />}>
-      <Route index element={<Home />} />
+      <Route index element={<Inicio />} />
       <Route path="bookings" element={<BookingPage />}>
         <Route path="thank-you" element={<ConfirmedBooking />} />
       </Route>
