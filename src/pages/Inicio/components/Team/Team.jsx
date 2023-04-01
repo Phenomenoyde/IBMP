@@ -8,7 +8,7 @@ export const Team = ({ data }) => {
         Equipo
       </Heading>
       <section className="TeamCarousel">
-        {data.map(({ id, name, review, image }) => (
+        {data.map(({ id, name, description, image }) => (
           <Card
             key={`team-card-${name.trim()}-${id}`}
             title={`Team by ${name}`}
@@ -18,7 +18,7 @@ export const Team = ({ data }) => {
             <Heading tag="h3" size="base" className="LL-Testimonial-Name">
               {name}
             </Heading>
-            <p className="Team-Rev">{review}</p>
+            <p className="Team-Rev">{description}</p>
           </Card>
         ))}
       </section>

@@ -14,22 +14,24 @@
   max-width: 272px;
   width: 272px;
   height: auto;
-  border-radius: 50%;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 1068px) {
   .about-columns {
-    gap: 10px;
+    gap: 3px;
   }
 
-  #about-chef-image {
+  
+#about-image img {
+    margin-top: 10rem;
     transform: scale(0.8);
   }
 }
 
 @media only screen and (max-width: 768px) {
   #about {
-    padding: 12%;
+    padding: 10%;
   }
 
   .about-columns {

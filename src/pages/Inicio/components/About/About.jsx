@@ -1,4 +1,5 @@
 import { Heading, Stack } from '../../../../components';
+import ticon from '../../../../assets/nachos.jpg';
 import './About.css';
 
 export const About = () => {
@@ -8,7 +9,7 @@ export const About = () => {
         <Stack.Item
           className="about-left-column"
           vertical
-          gap="2rem"
+          gap="1rem"
           basis="40%"
         >
           <Stack.Item vertical>
@@ -26,10 +27,10 @@ export const About = () => {
         
         <section className="about-right-column">
           <section id="about-image">
-            <div id="about-chef-image">
+            <div id="about-dish-image">
               <img
-                src="http://jordanbr.pythonanywhere.com/static/restaurant/img/head_chef.jpg"
-                alt="chef"
+                src={ticon}
+                alt="dish"
               />
             </div>
           </section>

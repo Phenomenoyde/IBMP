@@ -14,8 +14,8 @@ export const Footer = () => {
         height="100px"
       />
 
-      <section className="LL-FooterMenu">
-        <Heading className="fuuuu" tag="h5" size="base">
+      <section className="RestFooterMenu">
+        <Heading className="FooterNav" tag="h5" size="base">
           Navegación
         </Heading>
         <nav className="LL-Navigation FooterNavigation">
@@ -36,22 +36,22 @@ export const Footer = () => {
         </nav>
       </section>
 
-      <section className="LL-FooterContact">
+      <section className="RestFooterContact">
         <Heading tag="h5" size="base">
           Contactos
         </Heading>
         <article>
           <p>Turmero, Edo Aragua, Venezuela</p>
-          <p>numero</p>
+          <p>+58 414-1463368</p>
           <p>TijuanasFood@gmail.com</p>
         </article>
       </section>
 
-      <section className="LL-FooterSocial">
+      <section className="RestFooterSocial">
         <Heading tag="h5" size="base">
-          Sociales
+          Redes Sociales
         </Heading>
-        <nav className="LL-Navigation LL-FooterNavigation">
+        <nav className="LL-Navigation RestFooterNavigation">
           <SocialMediaWidget />
         </nav>
       </section>

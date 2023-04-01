@@ -27,14 +27,13 @@
   align-items: center;
 }
 
-.food-description {
+.food-description, .food-price {
   color: var(--color-black);
+  font-weight: 400;
+
 }
 
-.food-price {
-  color: var(--color-primary);
-  font-weight: 400;
-}
+
 
 @media screen and (max-width: 1024px) {
   #SpecialItems {

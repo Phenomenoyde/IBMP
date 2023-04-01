@@ -19,16 +19,15 @@ footer section:not(#SocialMediaWidget),
 }
 article > p {
     margin: 0;
-    padding: 5px 0;
+    padding: 2px 0;
 }
-footer section[class^='LL-Footer'] {
+footer section[class^='RestFooter'] {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
-
 }
-
+.FooterNavigation, article, .RestFooterNavigation {
+    margin-top: -2rem;
+}
 .FooterNavigation > ul > li {
-
-  padding: 2px 0;
+  padding: 1px 0;
 }

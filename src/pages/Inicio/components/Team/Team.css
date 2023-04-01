@@ -2,8 +2,13 @@
   display: flex;
   flex-direction: column;
   gap: 2.25rem;
-  background-color: var(--color-off-white);
+  background-color: var(--color-primary);
   padding: 4.5rem 2.25rem;
+}
+
+article, img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .TeamCarousel {
@@ -14,19 +19,19 @@
   gap: 20px;
 }
 
-.TeamCarousel .LL-Card {
+.TeamCarousel .RestCard {
   flex-basis: 25%;
 }
 
 .Team-Rev {
-  color: var(--color-primary);
+  color: var(--color-black);
 }
 
 @media only screen and (max-width: 768px) {
   .TeamCarousel {
     flex-wrap: wrap;
   }
-  .TeamCarousel .LL-Card {
+  .TeamCarousel .RestCard {
     flex-basis: 40%;
   }
 }
