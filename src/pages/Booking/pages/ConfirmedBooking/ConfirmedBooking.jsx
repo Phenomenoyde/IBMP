@@ -11,17 +11,17 @@ export const ConfirmedBooking = () => {
     label: key.toUpperCase(),
   }));
 
-  return stage === 'Thank You So Much' ? (
+  return stage === 'Gracias' ? (
     <Main>
-      <section className="LL-BookingConfirmation">
+      <section className="RestBookingConfirmation">
         
-        <Heading size="xl">CONFIRMED!</Heading>
+        <Heading size="xl">CONFIRMADA!</Heading>
         <p>
-          BOOKING HAS BEEN CONFIRMED.
+          SU MESA HA SIDO RESERVADA.
         </p>
       </section>
 
-      <section id="LL-BookingDetails">
+      <section id="RestBookingDetails">
         <Table rows={[data]} columns={columns} />
       </section>
     </Main>

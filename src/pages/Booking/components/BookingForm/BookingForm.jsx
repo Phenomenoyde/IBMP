@@ -85,7 +85,7 @@ export const BookingForm = ({ onSubmit }) => {
       }
 
 
-      if (id === 'bookingDate') {
+      if (id === 'fecha') {
         if (!compareDates(Date.now(), value, 1)) {
           dispatch({
             type: 'setFormErrors',
@@ -100,97 +100,100 @@ export const BookingForm = ({ onSubmit }) => {
 
   return (
     <form
-      id="LL-BookingForm"
+      id="RestBookingForm"
       onSubmit={onSubmit}
-      aria-label="Little Lemon - Booking Form"
+      aria-label="Tijuana's Food - Reservacion"
     >
       <Textfield
-        label="What is your first name?"
-        id="firstName"
-        name="firstName"
+        label="Nombre"
+        id="nombre"
+        name="nombre"
         type="text"
         required
         onFocus={onFocus}
         onBlur={onBlur}
         onChange={handleChange}
-        value={formData?.firstName ?? ''}
-        errors={formErrors.firstName}
+        value={formData?.nombre ?? ''}
+        errors={formErrors.nombre}
       />
 
       <Textfield
-        label="And your Last Name?"
-        id="lastName"
-        name="lastName"
+        label="Apellido"
+        id="apellido"
+        name="apellido"
         type="text"
         required
         onFocus={onFocus}
         onBlur={onBlur}
         onChange={handleChange}
-        value={formData?.lastName ?? ''}
-        errors={formErrors.lastName}
+        value={formData?.apellido ?? ''}
+        errors={formErrors.apellido}
       />
 
       <Textfield
-        label="Book a Date!"
-        id="bookingDate"
-        name="bookingDate"
+        label="Fecha"
+        id="fecha"
+        name="fecha"
         type="date"
         required
+        max="2023-12-31"
+        step="1"
         onFocus={onFocus}
         onBlur={onBlur}
         onChange={handleChange}
-        value={formData?.bookingDate ?? ''}
-        errors={formErrors.bookingDate}
+        value={formData?.fecha ?? ''}
+        errors={formErrors.fecha}
       />
 
       <Select
-        label="At what time?"
-        id="bookingTime"
-        name="bookingTime"
+        label="Hora"
+        id="hora"
+        name="hora"
         required
         options={normalizeAvailability(availableTimes)}
         onFocus={onFocus}
         onBlur={onBlur}
+        
         onChange={handleChange}
-        value={formData?.bookingTime ?? ''}
-        errors={formErrors.bookingTime}
+        value={formData?.hora ?? ''}
+        errors={formErrors.hora}
       />
 
       <Textfield
-        label="For how many of you?"
-        id="guests"
-        name="guests"
+        label="Número de Invitados"
+        id="invitados"
+        name="Número de Invitados"
         type="number"
         required
         onFocus={onFocus}
         onBlur={onBlur}
         onChange={handleChange}
-        value={formData?.guests ?? '1'}
-        errors={formErrors.guests}
+        value={formData?.invitados ?? '1'}
+        errors={formErrors.invitados}
         min="1"
-        max="10"
+        max="15"
       />
 
       <Select
-        label="What's the occasion?"
-        id="occasion"
-        name="occasion"
-        placeholder="Choose an Occasion"
-        dirtyPlaceholder="No Special Occasion"
+        label="Ocasion"
+        id="ocasion"
+        name="ocasion"
+        placeholder="Escoge una ocasión"
+        dirtyPlaceholder="Ocasion"
         options={occasions_list}
         onFocus={onFocus}
         onBlur={onBlur}
         onChange={handleChange}
-        value={formData?.occasion ?? ''}
-        errors={formErrors.occasion}
+        value={formData?.ocasion ?? ''}
+        errors={formErrors.ocasion}
       />
 
       <Button
         id="btn-reservation"
         type="submit"
-        disabled={Object.values(formErrors).find(val => val.length > 0)}
+        disabled= {Object.values(formErrors).find(val => val.length > 0)}
       >
-        Reserve
+        Reserve su mesa
       </Button>
     </form>
   );

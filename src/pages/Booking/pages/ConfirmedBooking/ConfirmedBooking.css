@@ -1,11 +1,11 @@
-.LL-BookingConfirmation {
+.RestBookingConfirmation {
   padding: 0 3rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-#LL-BookingDetails {
+#RestBookingDetails {
   padding: 1rem;
   display: flex;
   flex-direction: column;

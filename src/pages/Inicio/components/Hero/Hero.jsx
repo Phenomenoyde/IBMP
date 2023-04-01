@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { Button, Heading } from '../../../../components';
-import thero from '../../../../assets/tijuanas-logo.ico';
+import thero from '../../../../assets/banner2.png';
 import './Hero.css';
 export const Hero = () => {
   const navi = useNavigate();

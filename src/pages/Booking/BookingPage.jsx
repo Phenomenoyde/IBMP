@@ -8,7 +8,7 @@ import { BookingForm } from './components';
 import { FormContextProvider } from '../../context';
 import { submitAPI } from '../../utilities';
 import { bookingFormReducer, STAGES, loadInitialState } from '../../actions';
-
+import banner from '../../assets/banner.png'
 export const BookingPage = () => {
   const location = useLocation();
 
@@ -61,7 +61,7 @@ export const BookingPage = () => {
   return (
     <Main>
    
-      <nav className="LL-BookingPageNavigation">
+      <nav className="RestBookingPageNavigation">
         {STAGES[STAGES.length - 1] !== state.stage && (
           <Button ariaLabel="Go Back" unstyled onClick={goPreviousStage}>
             <Icon src={faArrowLeft} size="2x" />
@@ -71,11 +71,11 @@ export const BookingPage = () => {
 
       <FormContextProvider value={{ state, dispatch }}>
         {STAGES.indexOf(state.stage) === 0 && (
-          <section className="LL-BookingPageContainer">
-            <section className="fadeInLeft" id="LL-BookingPageHero">
+          <section className="RestBookingPageContainer">
+            <section className="fadeInLeft" id="RestBookingPageHero">
               <img
-                src="https://static01.nyt.com/images/2019/10/10/well/well-guide-family-table-slide-IL9L/well-guide-family-table-slide-IL9L-jumbo.jpg"
-                alt="Little Lemon - Seating"
+                src= { banner }
+                alt="Tijuana's Food"
               />
             </section>
             <BookingForm onSubmit={submitForm} />

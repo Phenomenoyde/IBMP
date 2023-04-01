@@ -1,4 +1,4 @@
-.LL-BookingPageNavigation {
+.RestBookingPageNavigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,15 +7,15 @@
   background-color: var(--color-primary);
 }
 
-.LL-BookingPageNavigation h1 {
+.RestBookingPageNavigation h1 {
   width: 100%;
 }
 
-.LL-BookingPageNavigation button.btn-unstyled {
+.RestBookingPageNavigation button.btn-unstyled {
   color: var(--color-white);
 }
 
-.LL-BookingPageContainer {
+.RestBookingPageContainer {
   width: 100%;
   padding: 2.25rem;
 }
@@ -24,8 +24,8 @@
         animation-name: fadeInLeft;
         -webkit-animation-duration: 1s;
         animation-duration: 1s;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
+        -webkit-animation-fiRestmode: both;
+        animation-fiRestmode: both;
         }
         @-webkit-keyframes fadeInLeft {
         0% {
@@ -52,25 +52,25 @@
         }
         } 
 
-#LL-BookingPageHero {
+#RestBookingPageHero {
   display: none;
   flex-basis: 50%;
   box-shadow: var(--box-shadow-2);
   height: 50%;
 }
 
-#LL-BookingPageHero img {
+#RestBookingPageHero img {
   width: 100%;
   border-radius: 0.5rem;
 }
 
 /** For larger screens */
 @media only screen and (min-width: 960px) {
-  .LL-BookingPageContainer {
+  .RestBookingPageContainer {
     display: flex;
     gap: 2.25rem;
   }
-  #LL-BookingPageHero {
+  #RestBookingPageHero {
     display: block;
   }
 }

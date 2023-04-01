@@ -1,44 +1,49 @@
 import { currentDateTime, fetchAPI, generateBookingID } from '../utilities';
 
-export const STAGES = ['Reservation Details', 'Thank You So Much'];
+export const STAGES = ['Reservation Details', 'Gracias'];
 export const OCCASIONS_LIST = [
   {
     id: 1,
-    label: 'Birthday',
-    value: 'birthday',
+    label: 'Cumpleaños',
+    value: 'cumpleaños',
   },
   {
     id: 2,
-    label: 'Anniversary',
-    value: 'anniversary',
+    label: 'Aniversario',
+    value: 'aniversario',
+  },
+  {
+    id: 3,
+    label: 'Graduación',
+    value: 'graduación',
   }
 ];
 
 export const loadInitialState = () => ({
   availableTimes: fetchAPI(new Date()),
   formData: {
-    firstName: '',
-    lastName: '',
-    bookingDate: currentDateTime(1).date,
-    bookingTime: '17:00',
-    guests: 1,
-    occasion: '',
+    nombre: '',
+    apellido: '',
+    fecha: currentDateTime(1).date,
+    hora: '17:00',
+    invitados: 1,
+    ocasion: '',
   },
   formErrors: {
-    firstName: '',
-    lastName: '',
-    bookingDate: '',
-    bookingTime: '',
-    guests: '',
-    occasion: '',
+    nombre: '',
+    apellido: '',
+    fecha: '',
+    hora: '',
+    invitados: '',
+    ocasion: '',
   },
   isDirty: {
-    firstName: false,
-    lastName: false,
-    bookingDate: false,
-    bookingTime: false,
-    guests: false,
-    occasion: false,
+    nombre: false,
+    apellido: false,
+    fecha: false,
+    hora: false,
+    invitados: false,
+    ocasion: false,
   },
   stage: STAGES[0],
   occasions_list: OCCASIONS_LIST,
