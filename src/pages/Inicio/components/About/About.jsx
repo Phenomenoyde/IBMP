@@ -1,5 +1,5 @@
 import { Heading, Stack } from '../../../../components';
-import ticon from '../../../../assets/nachos.jpg';
+import ticon from '../../../../assets/catrina.jpg';
 import './About.css';
 
 export const About = () => {
