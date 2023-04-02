@@ -30,8 +30,12 @@ a:hover {
   color: rgba(114, 153, 88, 0.89);
 }
 
-h1,
-h2,
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    line-height: 1;
+    font-weight: 700; 
+}
+
 h3,
 h4,
 h5,
@@ -79,27 +83,27 @@ h6 {
 }
 
 .text-standard {
-  font-size: 1rem;
-}
-
-.text-base {
   font-size: 1.25rem;
 }
 
-.text-m {
+.text-base {
   font-size: 1.5rem;
 }
 
-.text-lg {
-  font-size: 1.75rem;
+.text-m {
+  font-size: 1.7rem;
 }
 
-.text-xl {
+.text-lg {
   font-size: 2rem;
 }
 
+.text-xl {
+  font-size: 2.5rem;
+}
+
 .text-2xl {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .left {

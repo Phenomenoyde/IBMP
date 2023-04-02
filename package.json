@@ -1,10 +1,10 @@
 {
-  "name": "little-lemon-meta-frontend-capstone",
+  "name": "tijuanas-food-restaurant",
   "version": "0.2.0",
   "private": true,
   "author": "Khristopher Ugas <khristopheru20@gmail.com>",
   "main": "index.js",
-  "respository": "https://github.com/Phenomenoyde/CourseraRepo",
+  "respository": "https://github.com/Phenomenoyde/TijuanasFood",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",

@@ -1,6 +1,6 @@
 import { currentDateTime, fetchAPI, generateBookingID } from '../utilities';
 
-export const STAGES = ['Reservation Details', 'Gracias'];
+export const STAGES = ['Detalles', 'Gracias'];
 export const OCCASIONS_LIST = [
   {
     id: 1,
@@ -55,7 +55,7 @@ const updateTimes = (state, payload) => ({
   availableTimes: fetchAPI(payload),
 });
 
-export const bookingFormReducer = (state, { type, payload }) => {
+export const reservaFormReducer = (state, { type, payload }) => {
   switch (type) {
     case 'setAvailableTimes':
       return updateTimes(state, payload);

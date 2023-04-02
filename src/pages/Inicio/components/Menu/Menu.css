@@ -9,8 +9,9 @@
 .menu-title {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: right;
 }
+
 #MenuItems {
   display: flex;
   justify-content: space-between;
@@ -36,7 +37,7 @@
 
 
 @media screen and (max-width: 1024px) {
-  #SpecialItems {
+  #MenuItems {
     gap: 1rem;
   }
 }

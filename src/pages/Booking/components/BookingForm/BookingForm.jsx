@@ -89,7 +89,7 @@ export const BookingForm = ({ onSubmit }) => {
         if (!compareDates(Date.now(), value, 1)) {
           dispatch({
             type: 'setFormErrors',
-            payload: { [name]: 'You need to book at least a day in advance' },
+            payload: { [name]: 'Debes reservar con al menos un día de anticipación' },
           });
         }
         dispatch({ type: 'setAvailableTimes', payload: new Date(value) });

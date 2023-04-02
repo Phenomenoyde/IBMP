@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <section className="RestHero">
       <div className="Hero-left">
-        <Heading tag="h1" size="2xl">
+        <Heading tag="h1">
           Tijuana's Food
         </Heading>
         <p className="subtitle">Aragua, Venezuela</p>

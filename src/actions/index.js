@@ -1,1 +1,1 @@
-export * from './bookingFormReducer';
+export * from './reservaFormReducer';

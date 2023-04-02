@@ -12,7 +12,8 @@
 
 .Hero-left h1 {
   color: var(--color-primary-2);
-  font-size: 2.5rem;
+  font-size: 4rem;
+  font-weight: 700;
 }
 
 .Hero-left .subtitle {
@@ -25,7 +26,7 @@
   flex-direction: column;
 }
 .Hero-right {
-  height: 500px;
+  height: 450px;
   border-radius: 8px;
 }
 
@@ -42,13 +43,13 @@
 }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+
   section.RestHero {
     display: block;
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
-    font-weight: 200;
+    font-weight: 400;
   }
   .Hero-left {
     position: absolute;

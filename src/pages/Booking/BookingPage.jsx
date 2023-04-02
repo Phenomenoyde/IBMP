@@ -7,12 +7,13 @@ import { Outlet, useNavigate } from 'react-router-dom';
 import { BookingForm } from './components';
 import { FormContextProvider } from '../../context';
 import { submitAPI } from '../../utilities';
-import { bookingFormReducer, STAGES, loadInitialState } from '../../actions';
+import { reservaFormReducer, STAGES, loadInitialState } from '../../actions';
 import banner from '../../assets/banner.png'
+
 export const BookingPage = () => {
   const location = useLocation();
 
-  const [state, dispatch] = useReducer(bookingFormReducer, loadInitialState());
+  const [state, dispatch] = useReducer(reservaFormReducer, loadInitialState());
 
   useEffect(() => {
     if (location?.state?.from === 'navigation') dispatch({ type: 'reset' });
@@ -42,7 +43,7 @@ export const BookingPage = () => {
     e.preventDefault();
     try {
       if (Object.values(state.formErrors).find(val => val.length > 0)) {
-        throw new Error('Form could not be submitted - contains errors!');
+        throw new Error('El formulario contiene errores');
       }
 
       const response = submitAPI({
@@ -51,8 +52,8 @@ export const BookingPage = () => {
       });
       if (response) {
         goNextStage();
-        navigate('thank-you');
-      } else throw new Error('Form could not be submitted to the server.');
+        navigate('Gracias');
+      } else throw new Error('No se pudo enviar el formulario.');
     } catch (err) {
       console.log(err.message);
     }

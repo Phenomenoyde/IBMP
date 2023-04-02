@@ -2,7 +2,15 @@ form#RestBookingForm {
   width: 100%;
   flex-basis: 50%;
 }
-
+input, select {
+    background-color: #ffffff;
+    color: var(--color-full-black);
+    border-radius: .3rem;
+  }
+  input:focus {
+    background-color: var(--color-primary);
+    border: 5px solid var(--color-off-white);
+  }
 button#btn-reservation {
   margin-left: 1.25rem !important;
 }

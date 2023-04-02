@@ -28,7 +28,8 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
   justify-items: stretch;
-  background-color: var(--color-white)
+  background-color: var(--color-white);
+  
 }
 
 @keyframes slideIn {

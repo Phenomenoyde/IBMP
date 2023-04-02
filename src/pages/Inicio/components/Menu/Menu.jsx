@@ -5,7 +5,7 @@ export const Menu = ({ data, itemWidth }) => {
   return (
     <section id="menu" className="RestMenu">
       <section className="menu-title">
-        <Heading size="lg">Menú</Heading>
+        <Heading size="xl">Menú</Heading>
       </section>
 
       <section  id="MenuItems">
