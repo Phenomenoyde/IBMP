@@ -1,4 +1,4 @@
-label.LL-Label {
+label.RestLabel {
   padding: 0 1.25rem;
   color: var(--color-black);
   display: inline-flex;
@@ -8,13 +8,13 @@ label.LL-Label {
   transition: 0.2s ease-out;
 }
 
-.LL-Label.error {
+.RestLabel.error {
   color: var(--color-alert-error);
   transition: 0.2s ease-out;
 }
 
-.LL-Label > span.LL-Label-Required,
-.LL-Label[data-required='true']::after {
+.RestLabel > span.RestLabel-Required,
+.RestLabel[data-required='true']::after {
   content: '*';
   color: var(--color-alert-error);
   font-size: 1.25rem;

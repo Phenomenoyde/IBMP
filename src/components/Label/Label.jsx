@@ -19,7 +19,7 @@ export const Label = ({
   return (
     <label
       id={id}
-      className={`LL-Label ${className ?? ''}`}
+      className={`RestLabel ${className ?? ''}`}
       htmlFor={htmlFor}
       {...dataProps}
       {...restProps}

@@ -42,7 +42,7 @@ export const BookingForm = ({ onSubmit }) => {
       if (isDirty && value === '' && required) {
         dispatch({
           type: 'setFormErrors',
-          payload: { [name]: `${name} is a required field!` },
+          payload: { [name]: `${name} no ha sido introducido` },
         });
       }
     },
@@ -76,7 +76,7 @@ export const BookingForm = ({ onSubmit }) => {
          
           dispatch({
             type: 'setFormErrors',
-            payload: { [name]: `${name} is a required field!` },
+            payload: { [name]: `${name} no ha sido introducido` },
           });
         } else {
           

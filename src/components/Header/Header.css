@@ -13,17 +13,17 @@ header {
   z-index: 1000;
 }
 
-.logo.LL-HeaderLogo {
+.logo.RestHeaderLogo {
   margin-left: 12%;
 }
 
-.LL-HeaderLogo img {
+.RestHeaderLogo img {
   height: 100%;
   object-fit: cover;
 }
 
-nav .LL-NavigationMenuList,
-nav .LL-IconsList {
+nav .RestNavigationMenuList,
+nav .RestIconsList {
   display: flex;
   gap: 1rem;
   font-weight: 700;
@@ -31,12 +31,12 @@ nav .LL-IconsList {
   padding: 0 40px;
 }
 
-ul.LL-NavigationMenuList li a {
+ul.RestNavigationMenuList li a {
   padding: 1rem 1rem 1rem 0;
 }
 
 @media only screen and (max-width: 768px) {
-  #LL-HeaderMenu {
+  #RestHeaderMenu {
     position: absolute;
     left: 0;
     right: 0;
@@ -46,7 +46,7 @@ ul.LL-NavigationMenuList li a {
   }
 
 
-  ul.LL-NavigationMenuList {
+  ul.RestNavigationMenuList {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -56,29 +56,29 @@ ul.LL-NavigationMenuList li a {
     height: 100vh;
   }
 
-  #LL-HeaderMenu.open > ul.LL-NavigationMenuList li {
+  #RestHeaderMenu.open > ul.RestNavigationMenuList li {
     opacity: 0;
     
   }
 
-  ul.LL-NavigationMenuList li {
+  ul.RestNavigationMenuList li {
     border-bottom: 1px solid;
     padding: 1rem 0;
     animation: fadeIn 0.2s ease-in-out forwards 0.2s;
     color: var(--color-white)
     
   }
-  ul.LL-NavigationMenuList li a:hover {
+  ul.RestNavigationMenuList li a:hover {
     color: rgba(114, 153, 88, 0.89);
   }
-  ul.LL-NavigationMenuList li a {
+  ul.RestNavigationMenuList li a {
     color: var(--color-white)
   }
   
 }
 
 @media only screen and (min-width: 768px) and (max-width: 938px) {
-  .LL-Logo.LL-HeaderLogo {
+  .RestLogo.RestHeaderLogo {
     margin-left: 4%;
   }
 }

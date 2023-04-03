@@ -22,7 +22,7 @@ const Table = ({
     <table
       role="table"
       id={id}
-      className={`LL-Table ${className ?? ''}`}
+      className={`RestTable ${className ?? ''}`}
       {...accessibilityProps}
     >
       {rows && columns && (

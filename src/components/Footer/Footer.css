@@ -14,7 +14,7 @@ footer {
   box-shadow: var(--box-shadow-3);
 }
 footer section:not(#SocialMediaWidget),
-.LL-Logo.FooterLogo {
+.RestLogo.FooterLogo {
   padding: 0px 20px;
 }
 article > p {

@@ -1,6 +1,6 @@
 export const TableBody = ({ className, id, children }) => {
   return (
-    <tbody id={id} className={`LL-TableBody ${className || ''}`}>
+    <tbody id={id} className={`RestTableBody ${className || ''}`}>
       {children}
     </tbody>
   );

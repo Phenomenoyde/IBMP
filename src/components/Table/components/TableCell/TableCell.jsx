@@ -11,7 +11,7 @@ export const TableCell = ({
   return (
     <Element
       id={id}
-      className={`LL-TableCell ${className ?? ''}`}
+      className={`RestTableCell ${className ?? ''}`}
       title={title}
       colSpan={colSpan}
       rowSpan={rowSpan}

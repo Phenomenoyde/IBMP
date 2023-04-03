@@ -17,7 +17,7 @@ export const Card = ({
     <article className={classes} style={{ width: width ?? 'auto' }}>
       <section className={`RestCardImage ${position}`}>
         <img
-          src={image || 'https://via.placeholder.com/300x200?text=Card+Image'}
+          src={image || 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png'}
           alt={title}
           title={`${title} | Tijuana's Food`}
         />

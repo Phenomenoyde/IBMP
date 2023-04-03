@@ -3,7 +3,7 @@ import './Option.css';
 export const Option = ({ id, value, disabled, selected, children }) => {
   const coreProps = {
     id,
-    className: 'LL-SelectOption',
+    className: 'RestSelectOption',
     value,
     disabled,
     'aria-selected': selected,

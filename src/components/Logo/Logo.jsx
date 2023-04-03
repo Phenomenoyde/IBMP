@@ -4,7 +4,7 @@ import './Logo.css';
 
 export const Logo = ({
   className,
-  src = 'https://via.placeholder.com/291x60?text=Logo',
+  src = '',
   height = '60px',
   width,
 }) => {
@@ -16,7 +16,7 @@ export const Logo = ({
       style={{ height, width }}
       role="banner"
     >
-      <img src={src} alt="logo" title="Home" />
+      <img src={src} alt="logo" title="Inicio" />
     </div>
   );
 };

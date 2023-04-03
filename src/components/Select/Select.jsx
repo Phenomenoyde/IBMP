@@ -47,7 +47,7 @@ export const Select = forwardRef(
       id: select_id,
       ref,
       name,
-      className: `LL-Select ${className ?? ''}`,
+      className: `RestSelect ${className ?? ''}`,
       value,
       multiple,
       required,
@@ -72,17 +72,17 @@ export const Select = forwardRef(
     };
 
     return (
-      <section className={`LL-SelectContainer ${className ?? ''}`}>
+      <section className={`RestSelectContainer ${className ?? ''}`}>
         <Label
           id={label_id}
-          className={`LL-SelectLabel ${error_id ? 'error' : ''}`}
+          className={`RestSelectLabel ${error_id ? 'error' : ''}`}
           htmlFor={select_id}
           required={required}
         >
           {label}
         </Label>
 
-        <div className="LL-SelectFieldWrapper">
+        <div className="RestSelectFieldWrapper">
           <select {...elementProps} {...accessibilityProps}>
             {placeholder && (
               <Option value="">
@@ -105,7 +105,7 @@ export const Select = forwardRef(
 
         {/** Error Handling */}
         {error_id && (
-          <section className="LL-SelectErrors">
+          <section className="RestSelectErrors">
             <Error id={error_id}>{errors}</Error>
           </section>
         )}

@@ -37,7 +37,7 @@ export const Header = () => {
   useEffect(() => {
     const handler = ({ target }) => {
       if (
-        (target.closest('nav#LL-HeaderMenu') === menuRef.current &&
+        (target.closest('nav#RestHeaderMenu') === menuRef.current &&
           target.tagName !== 'A') ||
         target.closest('button#BurgerMenu') === burgerRef.current
       )
@@ -73,11 +73,11 @@ export const Header = () => {
           onClick={() => setShowMenu(prev => !prev)}
           active={showMenu}
           onKeyUp={handleKeys}
-          ariaControls="LL-HeaderMenu"
+          ariaControls="RestHeaderMenu"
         />
       )}
       <Logo
-        className="LL-HeaderLogo"
+        className="RestHeaderLogo"
         src={
           ticon
         }
@@ -86,14 +86,14 @@ export const Header = () => {
 
       {showMenu && (
         <nav
-          id="LL-HeaderMenu"
+          id="RestHeaderMenu"
           role="menubar"
-          className="LL-Navigation fadeInLeft"
+          className="RestNavigation fadeInLeft"
           ref={menuRef}
           {...menuOrientation}
         >
           <ul
-            className="LL-NavigationMenuList fadeInLeft"
+            className="RestNavigationMenuList fadeInLeft"
             role="menu group"
             {...menuOrientation}
           >

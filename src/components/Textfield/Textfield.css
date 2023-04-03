@@ -1,11 +1,11 @@
-.LL-TextfieldContainer {
+.RestTextfieldContainer {
   position: relative;
   display: flex;
   flex-direction: column;
   margin: 2.25rem auto;
 }
 
-input.LL-Textfield {
+input.RestTextfield {
   padding: 0.5rem 0;
   margin: 0 1.25rem;
   font-size: 1rem;
@@ -31,6 +31,6 @@ label[data-input='true'] {
   font-size: 0.875rem;
 }
 
-section.LL-TextfieldErrors {
+section.RestTextfieldErrors {
   padding: 0.5rem 1.25rem;
 }

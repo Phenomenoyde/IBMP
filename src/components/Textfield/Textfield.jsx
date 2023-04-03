@@ -120,7 +120,7 @@ export const Textfield = forwardRef(
     const additionalClasses = isDirty && error_id ? 'error' : '';
 
     const elementProps = {
-      className: `LL-Textfield ${additionalClasses}`,
+      className: `RestTextfield ${additionalClasses}`,
       id: input_id,
       type: VALID_INPUT_TYPES.includes(type) ? type : 'text',
       ref: multiline ? textAreaRef : inputRef,
@@ -145,10 +145,10 @@ export const Textfield = forwardRef(
     };
 
     return (
-      <div className={`LL-TextfieldContainer ${className ?? ''}`}>
+      <div className={`RestTextfieldContainer ${className ?? ''}`}>
         {!labelHidden && label && (
           <Label
-            className={`LL-TextfieldLabel ${additionalClasses}`}
+            className={`RestTextfieldLabel ${additionalClasses}`}
             id={label_id}
             htmlFor={input_id}
             required={required}
@@ -160,7 +160,7 @@ export const Textfield = forwardRef(
         <Input {...elementProps} {...accessibilityProps} {...dataProps} />
 
         {isDirty && error_id && (
-          <section className="LL-TextfieldErrors">
+          <section className="RestTextfieldErrors">
             <Error id={error_id}>{errors}</Error>
           </section>
         )}

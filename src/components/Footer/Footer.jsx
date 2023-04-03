@@ -18,7 +18,7 @@ export const Footer = () => {
         <Heading className="FooterNav" tag="h5" size="base">
           Navegación
         </Heading>
-        <nav className="LL-Navigation FooterNavigation">
+        <nav className="RestNavigation FooterNavigation">
           <ul>
             {navigation.map(({ id, name, title, link, url, state }) => {
               const Element = link === 'internal' ? Link : 'a';
@@ -51,7 +51,7 @@ export const Footer = () => {
         <Heading tag="h5" size="base">
           Redes Sociales
         </Heading>
-        <nav className="LL-Navigation RestFooterNavigation">
+        <nav className="RestNavigation RestFooterNavigation">
           <SocialMediaWidget />
         </nav>
       </section>
