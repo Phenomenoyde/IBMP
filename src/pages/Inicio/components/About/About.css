@@ -1,6 +1,6 @@
 #about {
   background-color: var(--color-primary2);
-  padding: 12% 12% 205px;
+  padding: 8% 8% 100px;
   width: 100%;
 }
 
@@ -9,10 +9,13 @@
   display: flex;
   width: 100%;
 }
+#about p {
+    color: purple;
+}
 
 #about-image img {
-  max-width: 272px;
-  width: 272px;
+  max-width: 300px;
+  width: 300px;
   height: auto;
   border-radius: 10px;
 }
@@ -24,7 +27,7 @@
 
   
 #about-image img {
-    margin-top: 10rem;
+    margin-top: 2rem;
     transform: scale(0.8);
   }
 }

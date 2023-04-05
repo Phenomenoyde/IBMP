@@ -3,6 +3,8 @@ import { Logo, Heading, SocialMediaWidget } from '../../components';
 import { Link } from 'react-router-dom';
 import navigation from '../../settings/cms/navigation.json';
 import ticon from '../../assets/tijuanas-logo.ico';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMapPin  } from '@fortawesome/free-solid-svg-icons'
 import './Footer.css';
 
 export const Footer = () => {
@@ -44,7 +46,14 @@ export const Footer = () => {
           <p>Turmero, Edo Aragua, Venezuela</p>
           <p>+58 414-1463368</p>
           <p>TijuanasFood@gmail.com</p>
-        </article>
+           </article>
+      </section>
+
+      <section className="RestFooterSocial">
+        <Heading tag="h5" size="base">
+          Ubicación
+        </Heading>   
+        <a href="https://goo.gl/maps/hwfaFhTiaUUF1g5n7" target="_blank" rel="noreferrer noopener" title="Google Maps"><FontAwesomeIcon icon={faMapPin} className="RestMaps"/></a>
       </section>
 
       <section className="RestFooterSocial">

@@ -2,10 +2,16 @@
   display: flex;
   align-items: left;
   gap: 0.625rem;
+
 }
 
 .SocialIcon {
   height: 40px;
   border-radius: 10px;
   background-color: var(--color-secondary);
+  transition: transform .3s ease-in-out 0.1s, background-color .3s ease-in-out 0.1s;
+}
+.SocialIcon:hover {
+    transform: scale(1.2);
+    background-color: var(--color-primary-2)
 }
