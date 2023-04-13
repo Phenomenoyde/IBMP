@@ -2,19 +2,19 @@
   {
     "id": 1,
     "name": "Bianca Turtulici",
-    "description": "She is Founder and CEO of Tijuana's Food Restaurant",
+    "description": "Fundadora y Gerente del restaurante, ",
     "image": "founder.jpg"
   },
   {
     "id": 2,
-    "name": "Full Name",
+    "name": "Nicole",
     "description": "Chef?",
     "image": "founder.jpg"
   },
   {
     "id": 3,
-    "name": "Full Name",
-    "description": "Delivery??",
+    "name": "Jenifer Goncalves",
+    "description": "Social Media Manager?",
     "image": "founder.jpg"
   }
 ]

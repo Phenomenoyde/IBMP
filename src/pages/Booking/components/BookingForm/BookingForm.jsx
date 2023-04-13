@@ -191,7 +191,8 @@ export const BookingForm = ({ onSubmit }) => {
       <Button
         id="btn-reservation"
         type="submit"
-        disabled= {Object.values(formErrors).find(val => val.length > 0)}
+        disabled
+        /*disabled={Object.values(formErrors).find(val => val.length > 0)*/
       >
         Reserve su mesa
       </Button>

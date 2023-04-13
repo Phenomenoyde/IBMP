@@ -1,4 +1,6 @@
-import { Card, Heading } from '../../../../components';
+import { Card, Heading, SocialMediaWidget } from '../../../../components';
+import navigation from '../../../../settings/cms/navigation.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Team.css';
 
 export const Team = ({ data }) => {
@@ -19,6 +21,10 @@ export const Team = ({ data }) => {
               {name}
             </Heading>
             <p className="Team-Rev">{description}</p>
+            <nav className="RestNavigation RestFooterNavigation">
+          <SocialMediaWidget />
+        </nav>
+    
           </Card>
         ))}
       </section>
