@@ -33,11 +33,16 @@
   font-weight: 400;
 
 }
-
-
+.food-price {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
 
 @media screen and (max-width: 1024px) {
   #MenuItems {
     gap: 1rem;
   }
+  
 }

@@ -13,7 +13,7 @@ export const Team = ({ data }) => {
             key={`team-card-${name.trim()}-${id}`}
             title={`Team by ${name}`}
             imagePosition="left"
-            image={image}
+            image={require(`../../../../assets/${image}`)}
           >
             <Heading tag="h3" size="base" className="LL-Testimonial-Name">
               {name}
