@@ -10,8 +10,11 @@
     "id": 2,
     "name": "menu",
     "title": "Menu",
-    "link": "hash",
-    "url": "/#menu"
+    "link": "internal",
+    "url": "/fullmen",
+    "state": {
+      "from": "navigation"
+    }
   },
   {
     "id": 3,
@@ -29,15 +32,5 @@
     "title": "Sobre nosotros",
     "link": "hash",
     "url": "/#about"
-  },
-  {
-    "id": 5,
-    "name": "fullmen",
-    "title": "Fullmen",
-    "link": "internal",
-    "url": "/fullmen",
-    "state": {
-      "from": "navigation"
-    }
   }
 ]

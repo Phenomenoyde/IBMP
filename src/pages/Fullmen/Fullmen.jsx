@@ -2,9 +2,12 @@ import { useCallback, useReducer, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Main,  Button, Icon } from '../../components';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
-import './BookingPage.css';
+import './Menu.css';
 import { useNavigate } from 'react-router-dom';
 import { reservaFormReducer, STAGES, loadInitialState } from '../../actions';
+import { Menu } from './components/Menu'
+import menu from '../../settings/cms/menu.json';
+
 
 export const Fullmen = () => {
   const location = useLocation();
@@ -37,6 +40,7 @@ export const Fullmen = () => {
           </Button>
         )}       
       </nav>
+      <Menu data={menu} itemWidth="300px" />
 
     </Main>
   );
