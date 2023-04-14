@@ -1,6 +1,4 @@
 import { Card, Heading, SocialMediaWidget } from '../../../../components';
-import navigation from '../../../../settings/cms/navigation.json';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Team.css';
 
 export const Team = ({ data }) => {

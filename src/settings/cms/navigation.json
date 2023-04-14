@@ -18,7 +18,7 @@
     "name": "reservaciones",
     "title": "Reservaciones",
     "link": "internal",
-    "url": "/bookings",
+    "url": "/Bookings",
     "state": {
       "from": "navigation"
     }
@@ -29,5 +29,15 @@
     "title": "Sobre nosotros",
     "link": "hash",
     "url": "/#about"
+  },
+  {
+    "id": 5,
+    "name": "fullmen",
+    "title": "Fullmen",
+    "link": "internal",
+    "url": "/fullmen",
+    "state": {
+      "from": "navigation"
+    }
   }
 ]

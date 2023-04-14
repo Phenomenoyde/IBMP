@@ -9,7 +9,7 @@ import {
 import { AppProvider, ThemeProvider } from './context';
 import { Header, Footer } from './components';
 import './App.css';
-import { Inicio, BookingPage, ConfirmedBooking } from './pages';
+import { Inicio, BookingPage, Fullmen, ConfirmedBooking } from './pages';
 
 const Root = () => {
   return (
@@ -29,6 +29,8 @@ const router = createBrowserRouter(
       <Route path="bookings" element={<BookingPage />}>
         <Route path="Gracias" element={<ConfirmedBooking />} />
       </Route>
+      <Route path="fullmen" element={<Fullmen />}>
+       </Route>
     </Route>
   )
 );
