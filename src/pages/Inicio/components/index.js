@@ -1,4 +1,4 @@
 export * from './Hero';
-export * from './Menu';
+export * from './Especiales';
 export * from './Team';
 export * from './About';

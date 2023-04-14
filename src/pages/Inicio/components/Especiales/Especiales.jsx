@@ -1,11 +1,11 @@
 import { Card, Heading } from '../../../../components';
 import './Menu.css';
 
-export const Menu = ({ data, itemWidth }) => {
+export const Especiales = ({ data, itemWidth }) => {
   return (
-    <section id="menu" className="RestMenu">
+    <section id="especiales" className="RestMenu">
       <section className="menu-title">
-        <Heading size="xl">Menú</Heading>
+        <Heading size="xl">Especiales</Heading>
       </section>
 
       <section  id="MenuItems">
