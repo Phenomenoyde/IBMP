@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "inicio",
+    "title": "Inicio",
+    "link": "hash",
+    "url": "/#inicio"
+  },
+  {
+    "id": 2,
+    "name": "menu",
+    "title": "Menu",
+    "link": "internal",
+    "url": "/fullmen",
+    "state": {
+      "from": "navigation"
+    }
+  },
+  {
+    "id": 3,
+    "name": "reservaciones",
+    "title": "Reservaciones",
+    "link": "internal",
+    "url": "/Bookings",
+    "state": {
+      "from": "navigation"
+    }
+  },
+  {
+    "id": 4,
+    "name": "sobre nosotros",
+    "title": "Sobre nosotros",
+    "link": "hash",
+    "url": "/#about"
+  }
+]

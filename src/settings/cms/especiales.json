@@ -1,0 +1,26 @@
+[
+  {
+    "id": 7,
+    "title": "MexiBurguer",
+    "image": "burguer.jpeg",
+    "price": 3.5,
+    "price2": 4.5,
+    "description": "Cuatro tacos de maíz rellenos de proteína, pico de gallo, queso y salsa"
+  },
+  {
+    "id": 1,
+    "title": "Quesadillas",
+    "image": "quesadillas.jpg",
+    "price": 2.5,
+    "price2": 4,
+    "description": "Dos tortillas rellenas de queso y proteína, acompañadas de guacamole"
+  },
+  {
+    "id": 2,
+    "title": "Mulitas",
+    "image": "mulitas.jpg",
+    "price": 4.5,
+    "price2": "Unico precio",
+    "description": "Dos tortillas de trigo fritas rellenas de proteina,, guacamole, queso, pico de gallo y salsa"
+  }
+]

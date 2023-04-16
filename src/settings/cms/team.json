@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Bianca Turtulici",
+    "description": "Fundadora y Gerente del restaurante, ",
+    "image": "founder.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Nicole",
+    "description": "Chef?",
+    "image": "founder.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Jenifer Goncalves",
+    "description": "Social Media Manager?",
+    "image": "founder.jpg"
+  }
+]

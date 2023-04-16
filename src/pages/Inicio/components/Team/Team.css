@@ -1,0 +1,37 @@
+.RestTeam {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+  background-color: var(--color-primary);
+  padding: 4.5rem 2.25rem;
+}
+
+article, img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.TeamCarousel {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.TeamCarousel .RestCard {
+  flex-basis: 25%;
+}
+
+.Team-Rev {
+  color: var(--color-black);
+}
+
+@media only screen and (max-width: 768px) {
+  .TeamCarousel {
+    flex-wrap: wrap;
+  }
+  .TeamCarousel .RestCard {
+    flex-basis: 40%;
+  }
+}
