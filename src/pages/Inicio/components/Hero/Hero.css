@@ -6,12 +6,13 @@
   gap: 5px;
   padding: 0.5rem;
   max-width: 100%;
-  background-color: var(--color-primary);
-  color: var(--color-white);
+  background-color: var(--color-aux);
+  color: var(--color-black);
 }
 
 .Hero-left h1 {
   color: var(--color-primary-2);
+  padding-left: 1rem;
   font-size: 4rem;
   font-weight: 700;
 }
@@ -40,6 +41,7 @@
 #Hero-description {
   padding: .2rem 0;
   font-weight: 700;
+  font-size: 1.45rem;
 }
 
 @media only screen and (max-width: 768px) {

@@ -15,7 +15,7 @@ export const Team = ({ data }) => {
             imagePosition="left"
             image={require(`../../../../assets/${image}`)}
           >
-            <Heading tag="h3" size="base" className="LL-Testimonial-Name">
+            <Heading tag="h3" size="base" className="RestTestimonial-Name">
               {name}
             </Heading>
             <p className="Team-Rev">{description}</p>

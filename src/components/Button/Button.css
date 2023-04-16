@@ -13,10 +13,10 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 0.5rem;
   min-width: 100px;
   border-radius: 0.5rem;
-  font-weight: 700;
+  font-weight: 400;
   border: 1px solid;
   border-color: var(--color-black-full);
   background-color: var(--color-black-full);
@@ -26,22 +26,23 @@ button {
 
 .btn:hover {
   background-color: var(--color-primary-2);
-  color: var(--color-black-full);
+  color: var(--color-primary);
   border-color: var(--color-primary-2);
   transition: 0.3s ease-in-out;
 }
 
 .btn.btn-primary,
 .btn.btn-outline:hover {
-  border-color: var(--color-primary-2);
-  background-color: var(--color-primary-2);
-  color: var(--color-black-full);
+  border-color: var(--color-third);
+  background-color: var(--color-third);
+  font-weight: 700;
+  color: var(--color-black);
 }
 
 .btn.btn-primary:hover {
   border-color: var(--color-black-full);
   background-color: var(--color-black-full);
-  color: var(--color-white);
+  color: var(--color-primary);
 }
 
 .btn.btn-outline {

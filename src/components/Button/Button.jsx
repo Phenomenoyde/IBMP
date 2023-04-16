@@ -69,7 +69,7 @@ export const Button = forwardRef(
     return (
       <button {...coreProps} {...interactiveProps} {...accessibilityProps}>
         {loadingMarkup}
-        <span className="LL-ButtonText">{children}</span>
+        <span className="RestButtonText">{children}</span>
       </button>
     );
   }
