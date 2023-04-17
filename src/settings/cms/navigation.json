@@ -4,12 +4,12 @@
     "name": "inicio",
     "title": "Inicio",
     "link": "hash",
-    "url": "/#inicio"
+    "url": "/#Inicio"
   },
   {
     "id": 2,
     "name": "menu",
-    "title": "Menu",
+    "title": "Menú",
     "link": "internal",
     "url": "/fullmen",
     "state": {

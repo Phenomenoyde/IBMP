@@ -10,7 +10,8 @@
   width: 100%;
 }
 #about p {
-    color: purple;
+    color: var(--color-black);
+    font-weight: 700;
 }
 
 #about-image img {

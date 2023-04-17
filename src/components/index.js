@@ -9,6 +9,7 @@ export * from './Stack';
 export * from './Table';
 export * from './Button';
 export * from './SocialMediaWidget';
+export * from './TeamMediaWidget';
 export * from './Card';
 export * from './Label';
 export * from './Textfield';

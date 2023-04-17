@@ -11,7 +11,7 @@
 }
 
 .Hero-left h1 {
-  color: var(--color-primary-2);
+  color: var(--color-secondary);
   padding-left: 1rem;
   font-size: 4rem;
   font-weight: 700;
@@ -66,12 +66,19 @@
   .Hero-left .subtitle {
     font-size: 1rem;
     font-weight: 400;
+    color: var(--color-off-white)
   }
   .Hero-left h1 {
     text-align: center;
+    
   }
   .Hero-right img {
     height: 100%;
     width: 100%;
+  }
+  #Hero-description {
+    color: var(--color-off-white);
+    background-color: var(--color-black-full);
+    border-radius: 10px;
   }
 }

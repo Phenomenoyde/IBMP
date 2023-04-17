@@ -6,7 +6,7 @@ export const Hero = () => {
   const navi = useNavigate();
 
   return (
-    <section className="RestHero">
+    <section id="Inicio" className="RestHero">
       <div className="Hero-left">
         <Heading tag="h1">
           Tijuana's Food
@@ -16,7 +16,7 @@ export const Hero = () => {
           Tijuana's Food es un restaurante de comida fusión Tex-Mex. Si amas la comida picante, amarás Tijuana's Food
         </p>
         <Button
-          ariaLabel="Reserve a Table"
+          ariaLabel="Reserva una mesa"
           id="Hero-btn"
           primary
           onClick={() => navi('/bookings')}

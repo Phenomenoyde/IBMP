@@ -1,4 +1,4 @@
-import { Card, Heading, SocialMediaWidget } from '../../../../components';
+import { Card, Heading, TeamMediaWidget } from '../../../../components';
 import './Team.css';
 
 export const Team = ({ data }) => {
@@ -20,7 +20,7 @@ export const Team = ({ data }) => {
             </Heading>
             <p className="Team-Rev">{description}</p>
             <nav className="RestNavigation RestFooterNavigation">
-          <SocialMediaWidget />
+          <TeamMediaWidget />
         </nav>
     
           </Card>

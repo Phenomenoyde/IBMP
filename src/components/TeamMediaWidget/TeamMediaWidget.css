@@ -1,0 +1,16 @@
+#TeamMediaWidget ul {
+  display: flex;
+  align-items: left;
+  gap: 0.625rem;
+
+}
+
+.TeamIcon {
+  height: 40px;
+  border-radius: 10px;
+  transition: transform .3s ease-in-out 0.1s, background-color .3s ease-in-out 0.1s;
+}
+.TeamIcon:hover {
+    transform: scale(1.2);
+    background-color: var(--color-primary-2)
+}
