@@ -10,7 +10,7 @@ export const Especiales = ({ data, itemWidth }) => {
 
       <section  id="MenuItems">
         {data.map(({ id, title, price, price2, description, image }) => (
-          <Card className="fuckk" key={id} title={title} width={itemWidth} image={require(`../../../../assets/${image}`)}>
+          <Card key={id} title={title} width={itemWidth} image={require(`../../../../assets/${image}`)}>
             <div className="CardHeader card-variant-food">
               <Heading tag="h4" size="m" className="food-title">
                 {title}
