@@ -4,5 +4,18 @@
     "name": "Bianca Turtulici",
     "description": "Fundadora y Gerente de Tijuana's Food",
     "image": "founder.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Nickols Hernandez",
+    "description": "Cocinera",
+    "image": "cook.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Jennifer Goncalves",
+    "description": "Publicista",
+    "image": "publicist.jpg"
   }
+  
 ]
