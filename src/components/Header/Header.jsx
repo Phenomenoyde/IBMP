@@ -78,9 +78,7 @@ export const Header = () => {
       )}
       <Logo
         className="RestHeaderLogo"
-        src={
-          ticon
-        }
+        src={ticon}
         height={windowWidth > 768 && windowWidth < 840 ? '50px' : '60px'}
       />
 

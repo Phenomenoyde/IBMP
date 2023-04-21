@@ -65,14 +65,14 @@ ul.RestNavigationMenuList li a {
     border-bottom: 1px solid;
     padding: 1rem 0;
     animation: fadeIn 0.2s ease-in-out forwards 0.2s;
-    color: var(--color-white)
+    color: var(--color-off-white)
     
   }
   ul.RestNavigationMenuList li a:hover {
-    color: rgba(114, 153, 88, 0.89);
+    color: var(--color-third);
   }
   ul.RestNavigationMenuList li a {
-    color: var(--color-white)
+    color: var(--color-black-full);
   }
   
 }
