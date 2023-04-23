@@ -56,20 +56,19 @@
   .Hero-left {
     position: absolute;
     width: 80%;
-    top: 1rem;
+    top: 0rem;
     left: 10%;
     padding: .5rem;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.3rem;
     background-color: rgba(0 0 0 / 0.5);
   }
   .Hero-left .subtitle {
-    font-size: 1rem;
-    font-weight: 400;
-    color: var(--color-off-white)
+    display: none;
   }
   .Hero-left h1 {
     text-align: center;
+    top: 0;
     
   }
   .Hero-right img {
@@ -80,5 +79,9 @@
     color: var(--color-off-white);
     background-color: var(--color-black-full);
     border-radius: 10px;
+    top: 0;
+  }
+  #Hero-btn {
+      display: none;
   }
 }

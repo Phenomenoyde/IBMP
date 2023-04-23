@@ -14,7 +14,7 @@ header {
 }
 
 .logo.RestHeaderLogo {
-  margin-left: 12%;
+  margin-left: 2%;
 }
 
 .RestHeaderLogo img {
@@ -41,7 +41,7 @@ ul.RestNavigationMenuList li a {
     left: 0;
     right: 0;
     top: 40px;
-    width: 50%;
+    width: 70%;
     max-height: 100vh;
   }
 
@@ -78,7 +78,8 @@ ul.RestNavigationMenuList li a {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 938px) {
-  .RestLogo.RestHeaderLogo {
-    margin-left: 4%;
+    .RestLogo.RestHeaderLogo {
+      margin-left: 4%;
+    }
   }
-}
+  

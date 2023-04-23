@@ -38,17 +38,14 @@
     padding: 10%;
   }
 
-  .about-columns {
-    gap: 0px;
+  .about-left-column p{
+    position: relative;
+    width: 80vw;
   }
 
-  #about-image img {
-    width: auto;
-    height: auto;
+  .about-right-column {
+    display: none;
   }
 
-  #about-chef-image {
-    transform: scale(0.5);
-  }
 
 }
