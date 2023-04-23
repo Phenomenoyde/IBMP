@@ -8,8 +8,8 @@ export const Inicio = () => {
   return (
     <Main>
       <Hero />
-      <Especiales data={especiales} itemWidth="300px" />
-      <Team data={team} />
+      <Especiales data={especiales} itemWidth="400px" />
+      <Team data={team} itemWidth="400px" />
       <About />
     </Main>
   );

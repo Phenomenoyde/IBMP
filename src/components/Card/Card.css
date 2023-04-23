@@ -5,8 +5,8 @@ article.RestCard {
   background-color: var(--color-off-white);
   flex-wrap: wrap;
   outline: .1px solid var(--color-black);
+  border-radius: 10px;
   transition: transform .3s ease-in-out 0.1s, outline .3s ease-in 0.12s;
-  
 }
 
 article.RestCard:hover {
